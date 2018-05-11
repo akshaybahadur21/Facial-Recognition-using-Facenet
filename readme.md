@@ -25,7 +25,7 @@ A facial recognition system is a technology capable of identifying or verifying 
 
 If you face any problem, kindly raise an issue
 
-<img src="https://github.com/akshaybahadur21/Devanagiri-Recognizer/blob/master/hindi.gif">
+<img src="https://github.com/akshaybahadur21/Facial-Recognition-using-Facenet/blob/master/Face-Rec.gif">
 
 
 
