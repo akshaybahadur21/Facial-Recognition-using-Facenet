@@ -13,7 +13,7 @@ You can install Conda for python which resolves all the dependencies for machine
 ### Description
 A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiples methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database.
 
-### Functioanlities added
+### Functionalities added
 1) Detecting face only when your eyes are opened. (Security measure)
 2) Using face align functionality from dlib to predict effectively while live streaming.
 
@@ -27,10 +27,10 @@ If you face any problem, kindly raise an issue
 
 ### Procedure
 
-1) If you want to train the network , run `Train-inception.py`, however you dont need to do that since I have already trained the model and saved it as 
+1) If you want to train the network , run `Train-inception.py`, however you don't need to do that since I have already trained the model and saved it as 
 `face-rec_Google.h5` file which gets loaded at runtime.
-2) Now you need to have images in your database. The code check `/images` folder for that. You can either paste your piccturess there or you can click it using webcam.
-For doing that, run `creat-face.py` the images get stored in `/incept` folder. You have to manually paste them in `/images folder`
+2) Now you need to have images in your database. The code check `/images` folder for that. You can either paste your pictures there or you can click it using web cam.
+For doing that, run `create-face.py` the images get stored in `/incept` folder. You have to manually paste them in `/images folder`
 3) Run `rec-feat.py` for running the application.
 
 ### References:
