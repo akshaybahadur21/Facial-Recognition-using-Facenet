@@ -1,7 +1,15 @@
-numpy
-matplotlib
-cv2
-keras
-dlib
-h5py
-scipy
+pip:
+
+	numpy
+	matplotlib
+	dlib
+	scipy
+	keras
+	pillow
+	opencv-python
+	h5py
+	imutils
+	mkl
+	cython
+conda:
+	tensorflow-gpu=1.8
