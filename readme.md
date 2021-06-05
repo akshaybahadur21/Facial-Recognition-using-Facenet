@@ -10,7 +10,7 @@ I have added several functionalities of my own for providing stability and bette
 ## Code Requirements 🦄
 You can install Conda for python which resolves all the dependencies for machine learning.
 
-##### pip install requirements.txt
+`pip install requirements.txt`
 
 ## Description 🕵️‍♂️
 A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiples methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database.
