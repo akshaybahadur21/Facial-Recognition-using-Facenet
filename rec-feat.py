@@ -5,14 +5,14 @@ import glob
 from scipy.spatial import distance
 from imutils import face_utils
 from keras.models import load_model
-from fr_utils import *
-from inception_blocks_v2 import *
+from utils.fr_utils import *
+from utils.inception_blocks_v2 import *
 
 detector = dlib.get_frontal_face_detector()
 
-FRmodel = load_model('face-rec_Google.h5')
+FRmodel = load_model('models/face-rec_Google.h5')
 print("Total Params:", FRmodel.count_params())
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("models/shape_predictor_68_face_landmarks.dat")
 thresh = 0.25
 
 

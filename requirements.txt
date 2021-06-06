@@ -1,15 +1,16 @@
 pip:
 
-	numpy
-	matplotlib
-	dlib
-	scipy
-	keras
+numpy~=1.19.5
+matplotlib~=3.4.2
+dlib~=19.22.0
+scipy~=1.6.3
+keras~=2.4.3
 	pillow
-	opencv-python
-	h5py
-	imutils
+opencv-python~=4.5.2.52
+h5py~=3.1.0
+imutils~=0.5.4
 	mkl
 	cython
 conda:
 	tensorflow-gpu=1.8
+tensorflow~=2.5.0

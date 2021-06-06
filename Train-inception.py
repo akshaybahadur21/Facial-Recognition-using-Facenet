@@ -1,5 +1,4 @@
-from fr_utils import *
-from inception_blocks_v2 import *
+from utils.inception_blocks_v2 import *
 
 
 def triplet_loss(y_true, y_pred, alpha=0.3):
@@ -32,7 +31,7 @@ def triplet_loss(y_true, y_pred, alpha=0.3):
 def main():
     FRmodel = faceRecoModel(input_shape=(3, 96, 96))
     FRmodel.compile(optimizer='adam', loss=triplet_loss, metrics=['accuracy'])
-    FRmodel.save('face-rec_Google.h5')
+    FRmodel.save('models/face-rec_Google.h5')
     print_summary(model)
 
 main()
