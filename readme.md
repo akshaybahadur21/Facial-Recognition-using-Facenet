@@ -32,6 +32,8 @@ If you face any problem, kindly raise an issue
 ```shell
 ├── Facial-Recognition-using-Facenet (Current Directory)
     ├── models : Saved Models
+        ├── face-rec_Google.h5 : Facenet Model 
+        └── shape_predictor_68_face_landmarks.dat : Facial Keypoints Model
     ├── utils : Utils Folder
         ├── fr_utils.py 
         └── inception_blocks_v2.py 
