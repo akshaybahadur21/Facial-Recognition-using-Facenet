@@ -63,7 +63,7 @@ python3 rec-feat.py
 
 ## Results 📊
 
-<img src="https://github.com/akshaybahadur21/Facial-Recognition-using-Facenet/blob/master/Face-Rec.gif">
+<img src="https://github.com/akshaybahadur21/BLOB/blob/master/Face-Rec.gif">
 
 ## References 🔱
  
