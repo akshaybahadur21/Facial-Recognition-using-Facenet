@@ -27,6 +27,23 @@ A facial recognition system is a technology capable of identifying or verifying 
 
 If you face any problem, kindly raise an issue
 
+## File Organization 🗄️
+
+```shell
+├── Facial-Recognition-using-Facenet (Current Directory)
+    ├── models : Saved Models
+    ├── utils : Utils Folder
+        ├── fr_utils.py 
+        └── inception_blocks_v2.py 
+    ├── create_face.py : Store the faces for module
+    ├── rec-feat.py - Main Application
+    ├── Train-inception.py : Model Trainer
+    ├── LICENSE
+    ├── requirements.txt
+    └── readme.md
+        
+```
+
 ## Setup 🖥️
 
 1) If you want to train the network , run `Train-inception.py`, however you don't need to do that since I have already trained the model and saved it as 
