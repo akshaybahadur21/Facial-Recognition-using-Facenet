@@ -65,6 +65,8 @@ python3 rec-feat.py
 
 <img src="https://github.com/akshaybahadur21/BLOB/blob/master/Face-Rec.gif">
 
+###### Made with ❤️ and 🦙 by Akshay Bahadur
+
 ## References 🔱
  
  - Florian Schroff, Dmitry Kalenichenko, James Philbin (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
